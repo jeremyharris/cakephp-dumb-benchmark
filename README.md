@@ -1,0 +1,2 @@
+# CakePHP Dumb Benchmark
+
