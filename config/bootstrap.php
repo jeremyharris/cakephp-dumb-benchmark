@@ -191,6 +191,7 @@ if (Configure::read('debug')) {
 /**
  * Connect middleware/dispatcher filters.
  */
+DispatcherFactory::add('HelloWorld');
 DispatcherFactory::add('Asset');
 DispatcherFactory::add('Routing');
 DispatcherFactory::add('ControllerFactory');

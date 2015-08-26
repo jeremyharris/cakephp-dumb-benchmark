@@ -41,6 +41,10 @@ use Cake\Routing\Router;
  */
 Router::defaultRouteClass('Route');
 
+Router::scope('/hello_dispatch', function ($routes) {
+    // nothing
+});
+
 Router::scope('/', function ($routes) {
     /**
      * Here, we are connecting '/' (base path) to a controller called 'Pages',
